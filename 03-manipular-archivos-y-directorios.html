@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Manipular archivos y directorios</h1>
+  <h2>Variaciones del comando ls</h2>
+  <p>
+    - ls -la: Nos muestra todos los archivos, incluidos los ocultos, con toda la información detallada.
+    - ls -lS (size): S mayúscula. Ordena todos los directorios por tamaño de mayor a menor.
+    - ls -lr: Muestra los archivos en orden inverso al habitual (el habitual es el orden alfabético).
+    - ls + nombre de un directorio. Nos lista los elementos que se encuentran en otro directorio.
+  </p>
+  <p>
+    - tree: Despliega todos los directorios y todos los directorios de los mismos en forma de árbol.
+    - tree -L: Hace lo mismo pero desplegando nada más que dos niveles de profundidad.
+  </p>
+  <p>
+    - mkdir (make directory): Para crear un directorio/carpeta. Para crear un directorio con espacios de por medio, poner el nombre del directorio entre comillas simples o dobles.
+    - touch: Para crear archivos. Por defecto lo que crea son archivos de texto.
+
+    Tanto para los archios y los directorios, se pueden crear varios a la vez con el mismo comando.
+  </p>
+  <p>
+    - cp (copy): Para copiar archivos. Con cp + el nombre del archivo + el nombre del archivo nuevo se crea la copia de un archivo en el mismo directorio que el original
+    - mv (move). Para mover archivos entre directorios. Se escribe mv + el nombre del archivo que se quiere mover + el nombre del directorio de destino. Se puede utilizar el .. para moverlo al directorio anterior. También se utiliza para renombrar archivos o directorios. Se escribe mv + el nombre del archivo + el nombre nuevo del archivo.
+    - rm (remove): Para eliminar archivos.
+    - rm -i (interactive): También para eliminar archivos pero que te incluye un check, te pregunta si estás seguro y tienes que responder si o no.
+    - rm -r (recursive): Para eliminar directorios. Es interactivo, te va preguntando uno por uno si quieres eliminar el direcotorio y todos los elementos que hay dentro de él.
+    - rm -rf (force): Para eliminar lo que sea si o si.
+  </p>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>¿Qué es un comando?</h1>
+  <p>
+    1. Puede ser un programa ejecutable, es decir, un programa compilado en algún lenguaje de programación y listo para utilizarse ejecutando un comando. Estos programas se suelen guardar en la ruta /usr/bin.
+    2. Un comando de utilidad de shell, es decir, una funcionalidad de la shell, una expresión para ejecutar algo en el programa que maneja la terminal.
+    3. Una función de shell, es decir, una función externa al programa shell que no es un comando propio de dicho programa.
+    4. Un alias, es decir, un nombre concreto creado para ejecutar otro comando con un nombre más complejo o para ejecutar un pequeño script utilizando un expresión corta.
+  </p>
+  <p>
+    - type: Nos dice que tipo de comando es un comando (uno de los 4 de arriba).
+    - Normalmente, en los comandos, cuando tenemos una palabra completa, se utilizan dos guiones (--).
+    - Los alias se crean con el comando "alias" seguido de la expresión nueva que queremos crear = "el comando que queremos que ejecute". Ejemplo de alias: alias l="ls -lh". Con este alias creado, si ejecutaramos el comando "l", ejecutaría la función del comando "ls -lh".
+    
+    Pero un alias creado no es permanente por defecto, el alias creado dejaría de funcionar en el momento que cerraramos la terminal, es temporal.
+
+    - help: Comando de utilidad de shell que nos aporta información en general sobre los diferentes comandos. Existe una funcionalidad específica para cada comando, utilizando "comando --help" y nos da información sobre ese comando específico.
+
+    - man: Comando que hace referencia al manual de usuario de un comando de una manera muy completa.
+
+    - info: También nos aporta información sobre un comando, de manera un poco más resumida.
+
+    - whatis: Descripción muy breve sobre lo que hace un comando. No funciona con todos los comandos.
+  </p>
+</body>
+</html>
